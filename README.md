@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # projectgift
 
 > A Vue.js project
@@ -28,3 +29,7 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# project_gift
+礼物说app开发  vue webpack  https://github.com/ioriginal/LiWuShuoDemo
+>>>>>>> 53e36d2370c9e253fef7327e86da10b84bc35b3f
