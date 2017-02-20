@@ -16,8 +16,8 @@
 					{{hot.data.name}}
 				</div>
 				<div class="hot_like">
-					<span>￥{{hot.data.price}}</span>
-					<span>♡{{hot.data.favorites_count}}</span>
+					<span class="price">￥{{hot.data.price}}</span>
+					<span class="price">♡{{hot.data.favorites_count}}</span>
 				</div>
 			</li>
 		</ul>
@@ -41,9 +41,12 @@
 	}
 </script>
 
-<style">
+<style lang="scss">
 #hot{
 	background:#EDEFDF;
+}
+ul{
+	list-style: none;
 }
 ul#hot_list{
 	width: 100%;
@@ -55,6 +58,16 @@ ul#hot_list{
   	height:7rem;
   	margin-top:1rem;
   	border:1px solid red;
+  	.listimg{
+  		width: 100%;
+  		height:80%;
+  		img{
+  			width: 100%;
+  		}
+  	}
+  	.hot_name{
+  		font-size: 0.4rem;
+  	}
   }
 }
 </style>
