@@ -23,6 +23,45 @@ var autoOpenBrowser = !!config.dev.autoOpenBrowser
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+var appData = require('../data/banner1.json');
+var appData2 = require('../data/banner2.json');
+var appData3 = require('../data/jingxuan.json');
+var appData4 = require('../data/tabremen2.json');
+var banner1 = appData.data;
+var banner2 = appData2.data;
+var home = appData3.data;
+var hot = appData4.data;
+var appiRoutes = express.Router();
+
+appiRoutes.get('/banner1',function(req,res){
+  res.json({
+  	errno: 0,
+  	data: banner1
+  });
+});
+
+appiRoutes.get('/banner2',function(req,res){
+  res.json({
+  	errno: 0,
+  	data: banner2
+  });
+});
+
+appiRoutes.get('/home',function(req,res){
+  res.json({
+  	errno: 0,
+  	data: home
+  });
+});
+
+appiRoutes.get('/hot',function(req,res){
+  res.json({
+  	errno: 0,
+  	data: hot
+  });
+});
+app.use('/api',appiRoutes)
+
 var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {

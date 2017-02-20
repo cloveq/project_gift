@@ -1,0 +1,138 @@
+{
+    "code": 200,
+    "data": {
+        "banners": [
+            {
+                "ad_monitors": [],
+                "channel": "all",
+                "id": 910,
+                "image_url": "http://img01.liwushuo.com/image/170216/49nlee3ee.jpg-w720",
+                "order": 702,
+                "status": 0,
+                "target_id": 1047458,
+                "target_type": "url",
+                "target_url": "liwushuo:///page?page_action=navigation&login=false&type=post&post_id=1047458",
+                "type": "post",
+                "webp_url": "http://img01.liwushuo.com/image/170216/49nlee3ee.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "channel": "all",
+                "id": 909,
+                "image_url": "http://img01.liwushuo.com/image/170216/m340yngao.jpg-w720",
+                "order": 701,
+                "status": 0,
+                "target_id": 1047479,
+                "target_type": "url",
+                "target_url": "liwushuo:///page?page_action=navigation&login=false&type=post&post_id=1047479",
+                "type": "post",
+                "webp_url": "http://img01.liwushuo.com/image/170216/m340yngao.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "channel": "all",
+                "id": 906,
+                "image_url": "http://img01.liwushuo.com/image/170216/xlctinu0o.jpg-w720",
+                "order": 630,
+                "status": 0,
+                "target": {
+                    "banner_image_url": "http://img02.liwushuo.com/image/170216/u2l2w0gmn.jpg-w300",
+                    "banner_webp_url": "http://img02.liwushuo.com/image/170216/u2l2w0gmn.jpg?imageView2/2/w/300/q/85/format/webp",
+                    "cover_image_url": "http://img01.liwushuo.com/image/170216/1djw5oemx.jpg-w720",
+                    "cover_webp_url": "http://img01.liwushuo.com/image/170216/1djw5oemx.jpg?imageView2/2/w/720/q/85/format/webp",
+                    "created_at": 1487209693,
+                    "id": 436,
+                    "posts_count": 5,
+                    "status": 1,
+                    "subtitle": "颜值高才是真的好",
+                    "title": "不爱江山爱美物，颜值即正义",
+                    "updated_at": 1487210686
+                },
+                "target_id": 436,
+                "target_type": "url",
+                "target_url": "liwushuo:///page?page_action=navigation&login=false&type=topic&topic_id=436",
+                "type": "collection",
+                "webp_url": "http://img01.liwushuo.com/image/170216/xlctinu0o.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "channel": "all",
+                "id": 901,
+                "image_url": "http://img03.liwushuo.com/image/170213/p4o1ouwmz.jpg-w720",
+                "order": 0,
+                "status": 0,
+                "target": {
+                    "banner_image_url": "http://img03.liwushuo.com/image/170213/8logaq9mk.jpg-w300",
+                    "banner_webp_url": "http://img03.liwushuo.com/image/170213/8logaq9mk.jpg?imageView2/2/w/300/q/85/format/webp",
+                    "cover_image_url": "http://img01.liwushuo.com/image/170213/38z71mq40.jpg-w720",
+                    "cover_webp_url": "http://img01.liwushuo.com/image/170213/38z71mq40.jpg?imageView2/2/w/720/q/85/format/webp",
+                    "created_at": 1486956247,
+                    "id": 433,
+                    "posts_count": 5,
+                    "status": 1,
+                    "subtitle": "不娘的姑娘该如何脱单",
+                    "title": "桃花运",
+                    "updated_at": 1486956443
+                },
+                "target_id": 433,
+                "target_type": "url",
+                "target_url": "liwushuo:///page?page_action=navigation&login=false&type=topic&topic_id=433",
+                "type": "collection",
+                "webp_url": "http://img03.liwushuo.com/image/170213/p4o1ouwmz.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "channel": "all",
+                "id": 904,
+                "image_url": "http://img03.liwushuo.com/image/170216/45j82gc04.jpg-w720",
+                "order": 0,
+                "status": 0,
+                "target": {
+                    "banner_image_url": "http://img02.liwushuo.com/image/170216/ethe305e8.jpg-w300",
+                    "banner_webp_url": "http://img02.liwushuo.com/image/170216/ethe305e8.jpg?imageView2/2/w/300/q/85/format/webp",
+                    "cover_image_url": "http://img01.liwushuo.com/image/170216/u3cnxggdj.jpg-w720",
+                    "cover_webp_url": "http://img01.liwushuo.com/image/170216/u3cnxggdj.jpg?imageView2/2/w/720/q/85/format/webp",
+                    "created_at": 1487208013,
+                    "id": 434,
+                    "posts_count": 5,
+                    "status": 1,
+                    "subtitle": "臭美的钱最应该花在什么地方",
+                    "title": "正确的花钱观",
+                    "updated_at": 1487208346
+                },
+                "target_id": 434,
+                "target_type": "url",
+                "target_url": "liwushuo:///page?page_action=navigation&login=false&type=topic&topic_id=434",
+                "type": "collection",
+                "webp_url": "http://img03.liwushuo.com/image/170216/45j82gc04.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "channel": "all",
+                "id": 905,
+                "image_url": "http://img02.liwushuo.com/image/170216/23de44n4p.jpg-w720",
+                "order": 0,
+                "status": 0,
+                "target": {
+                    "banner_image_url": "http://img03.liwushuo.com/image/170216/ycyg13x8l.jpg-w300",
+                    "banner_webp_url": "http://img03.liwushuo.com/image/170216/ycyg13x8l.jpg?imageView2/2/w/300/q/85/format/webp",
+                    "cover_image_url": "http://img01.liwushuo.com/image/170216/xbf7q3wxy.jpg-w720",
+                    "cover_webp_url": "http://img01.liwushuo.com/image/170216/xbf7q3wxy.jpg?imageView2/2/w/720/q/85/format/webp",
+                    "created_at": 1487208666,
+                    "id": 435,
+                    "posts_count": 5,
+                    "status": 1,
+                    "subtitle": "如何应对一场突如其来的睡不着",
+                    "title": "解药",
+                    "updated_at": 1487208925
+                },
+                "target_id": 435,
+                "target_type": "url",
+                "target_url": "liwushuo:///page?page_action=navigation&login=false&type=topic&topic_id=435",
+                "type": "collection",
+                "webp_url": "http://img02.liwushuo.com/image/170216/23de44n4p.jpg?imageView2/2/w/720/q/85/format/webp"
+            }
+        ]
+    },
+    "message": "OK"
+}

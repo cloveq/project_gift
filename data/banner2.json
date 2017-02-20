@@ -1,0 +1,51 @@
+{
+    "code": 200,
+    "data": {
+        "background_webp_url": null,
+        "secondary_banners": [
+            {
+                "ad_monitors": [],
+                "id": 90,
+                "image_url": "http://img02.liwushuo.com/image/170215/nhfbq21il.jpg-w720",
+                "target_url": "liwushuo:///page?type=shop_collection&id=48",
+                "webp_url": "http://img02.liwushuo.com/image/170215/nhfbq21il.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "id": 83,
+                "image_url": "http://img02.liwushuo.com/image/170215/m7xi8t7h7.jpg-w720",
+                "target_url": "liwushuo:///page?type=shop_collection&id=28",
+                "webp_url": "http://img02.liwushuo.com/image/170215/m7xi8t7h7.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "id": 88,
+                "image_url": "http://img03.liwushuo.com/image/170209/rec4ljrii.jpg-w720",
+                "target_url": "liwushuo:///page?type=shop_collection&id=37",
+                "webp_url": "http://img03.liwushuo.com/image/170209/rec4ljrii.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "id": 89,
+                "image_url": "http://img02.liwushuo.com/image/170215/o1zcpl561.jpg-w720",
+                "target_url": "liwushuo:///page?type=shop_collection&id=45",
+                "webp_url": "http://img02.liwushuo.com/image/170215/o1zcpl561.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "id": 81,
+                "image_url": "http://img02.liwushuo.com/image/170215/p8hxdges0.jpg-w720",
+                "target_url": "liwushuo:///page?type=topic&topic_id=389",
+                "webp_url": "http://img02.liwushuo.com/image/170215/p8hxdges0.jpg?imageView2/2/w/720/q/85/format/webp"
+            },
+            {
+                "ad_monitors": [],
+                "id": 87,
+                "image_url": "http://img01.liwushuo.com/image/170209/4vllhb1m0.jpg-w720",
+                "target_url": "liwushuo:///page?type=shop_collection&id=51",
+                "webp_url": "http://img01.liwushuo.com/image/170209/4vllhb1m0.jpg?imageView2/2/w/720/q/85/format/webp"
+            }
+        ]
+    },
+    "message": "OK"
+}

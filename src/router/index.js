@@ -1,15 +1,29 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from 'components/Hello'
-
+import Home from 'components/home'
+import Hot from 'components/hot'
+import classify from 'components/classify'
+import mine from 'components/mine'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: Hello
+      name: '',
+      component: Home
+    },
+    {
+      path: '/hot',
+      component: Hot
+    },
+    {
+      path: '/classify',
+      component: classify
+    },
+    {
+      path: '/mine',
+      component: mine
     }
   ]
 })

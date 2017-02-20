@@ -1,0 +1,95 @@
+{
+    "code": 200,
+    "data": {
+        "collections": [
+            {
+                "banner_image_url": "http://img02.liwushuo.com/image/161216/lhbxzdn0h.jpg-w300",
+                "banner_webp_url": "http://img02.liwushuo.com/image/161216/lhbxzdn0h.jpg?imageView2/2/w/300/q/85/format/webp",
+                "cover_image_url": "http://img01.liwushuo.com/image/161216/999kz6eia.jpg-w720",
+                "cover_webp_url": "http://img01.liwushuo.com/image/161216/999kz6eia.jpg?imageView2/2/w/720/q/85/format/webp",
+                "created_at": 1481858067,
+                "id": 409,
+                "order": 0,
+                "posts_count": 21,
+                "status": 0,
+                "subtitle": "愉悦过圣诞指南",
+                "title": "圣诞的奇妙烟囱",
+                "updated_at": 1482029991
+            },
+            {
+                "banner_image_url": "http://img01.liwushuo.com/image/160901/ju8576b26.jpg-w300",
+                "banner_webp_url": "http://img01.liwushuo.com/image/160901/ju8576b26.jpg?imageView2/2/w/300/q/85/format/webp",
+                "cover_image_url": "http://img01.liwushuo.com/image/160901/pcg9xfgm6.jpg-w720",
+                "cover_webp_url": "http://img01.liwushuo.com/image/160901/pcg9xfgm6.jpg?imageView2/2/w/720/q/85/format/webp",
+                "created_at": 1472719481,
+                "id": 350,
+                "order": 0,
+                "posts_count": 7,
+                "status": 0,
+                "subtitle": "月圆·人圆，家团圆",
+                "title": "中秋佳节",
+                "updated_at": 1473054901
+            },
+            {
+                "banner_image_url": "http://img03.liwushuo.com/image/160809/0vs8f6zch.jpg-w300",
+                "banner_webp_url": "http://img03.liwushuo.com/image/160809/0vs8f6zch.jpg?imageView2/2/w/300/q/85/format/webp",
+                "cover_image_url": "http://img02.liwushuo.com/image/160809/fjbt7tn4a.jpg-w720",
+                "cover_webp_url": "http://img02.liwushuo.com/image/160809/fjbt7tn4a.jpg?imageView2/2/w/720/q/85/format/webp",
+                "created_at": 1470708135,
+                "id": 343,
+                "order": 0,
+                "posts_count": 9,
+                "status": 0,
+                "subtitle": "小户型居家指南",
+                "title": "拥有一个有温度的家，小小的满是爱",
+                "updated_at": 1470710466
+            },
+            {
+                "banner_image_url": "http://img03.liwushuo.com/image/160809/lwyb3e21t.jpg-w300",
+                "banner_webp_url": "http://img03.liwushuo.com/image/160809/lwyb3e21t.jpg?imageView2/2/w/300/q/85/format/webp",
+                "cover_image_url": "http://img01.liwushuo.com/image/160809/z8gjvrx80.jpg-w720",
+                "cover_webp_url": "http://img01.liwushuo.com/image/160809/z8gjvrx80.jpg?imageView2/2/w/720/q/85/format/webp",
+                "created_at": 1470708193,
+                "id": 344,
+                "order": 0,
+                "posts_count": 7,
+                "status": 0,
+                "subtitle": "姨妈保卫战",
+                "title": "善待自己，姨妈驾到也不怕",
+                "updated_at": 1470709298
+            },
+            {
+                "banner_image_url": "http://img03.liwushuo.com/image/160809/4aan6a9q0.jpg-w300",
+                "banner_webp_url": "http://img03.liwushuo.com/image/160809/4aan6a9q0.jpg?imageView2/2/w/300/q/85/format/webp",
+                "cover_image_url": "http://img03.liwushuo.com/image/160809/kh0fdzqju.jpg-w720",
+                "cover_webp_url": "http://img03.liwushuo.com/image/160809/kh0fdzqju.jpg?imageView2/2/w/720/q/85/format/webp",
+                "created_at": 1470708231,
+                "id": 345,
+                "order": 0,
+                "posts_count": 12,
+                "status": 0,
+                "subtitle": "夏季包包",
+                "title": "身上不挂点彩，怎么能叫夏天呢？",
+                "updated_at": 1470708966
+            },
+            {
+                "banner_image_url": "http://img01.liwushuo.com/image/160728/x2fkkitaw.jpg-w300",
+                "banner_webp_url": "http://img01.liwushuo.com/image/160728/x2fkkitaw.jpg?imageView2/2/w/300/q/85/format/webp",
+                "cover_image_url": "http://img03.liwushuo.com/image/160728/h6yf5a21l.jpg-w720",
+                "cover_webp_url": "http://img03.liwushuo.com/image/160728/h6yf5a21l.jpg?imageView2/2/w/720/q/85/format/webp",
+                "created_at": 1469699869,
+                "id": 341,
+                "order": 0,
+                "posts_count": 20,
+                "status": 0,
+                "subtitle": "恩爱要大方秀出来",
+                "title": "七夕礼物TOP榜",
+                "updated_at": 1470207658
+            }
+        ],
+        "paging": {
+            "next_url": "http://api.liwushuo.com/v2/collections?limit=6&offset=6"
+        }
+    },
+    "message": "OK"
+}
