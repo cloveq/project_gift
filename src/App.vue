@@ -50,7 +50,7 @@ export default {
 	width: $width;
 	height:$height*1.5;
 	background: $redcolor+#02ffd0;
-	border:0.01rem solid #ccc;
+	border-top:1px solid #ccc;
 	display: $display;
 	justify-content: space-around;
 	align-items: center;

@@ -27,10 +27,16 @@ var appData = require('../data/banner1.json');
 var appData2 = require('../data/banner2.json');
 var appData3 = require('../data/jingxuan.json');
 var appData4 = require('../data/tabremen2.json');
+var appData5 = require('../data/zhuanti.json');
+var appData6 = require('../data/tab3gonglve.json');
+var appData7 = require('../data/liwu.json');
 var banner1 = appData.data;
 var banner2 = appData2.data;
 var home = appData3.data;
 var hot = appData4.data;
+var collection = appData5.data;
+var channel = appData6.data;
+var gift = appData7.data;
 var appiRoutes = express.Router();
 
 appiRoutes.get('/banner1',function(req,res){
@@ -60,6 +66,28 @@ appiRoutes.get('/hot',function(req,res){
   	data: hot
   });
 });
+
+appiRoutes.get('/collection',function(req,res){
+  res.json({
+  	errno: 0,
+  	data: collection
+  });
+});
+
+appiRoutes.get('/channel',function(req,res){
+  res.json({
+  	errno: 0,
+  	data: channel
+  });
+});
+
+appiRoutes.get('/gift',function(req,res){
+  res.json({
+  	errno: 0,
+  	data: gift
+  });
+});
+
 app.use('/api',appiRoutes)
 
 var compiler = webpack(webpackConfig)

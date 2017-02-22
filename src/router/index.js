@@ -4,6 +4,7 @@ import Home from 'components/home'
 import Hot from 'components/hot'
 import classify from 'components/classify'
 import mine from 'components/mine'
+import gift from 'components/gift'
 Vue.use(Router)
 
 export default new Router({
@@ -24,6 +25,10 @@ export default new Router({
     {
       path: '/mine',
       component: mine
+    },
+    {
+      path: '/gift',
+      component: gift
     }
   ]
 })

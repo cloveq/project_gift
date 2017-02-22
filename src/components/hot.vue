@@ -16,8 +16,8 @@
 					{{hot.data.name}}
 				</div>
 				<div class="hot_like">
-					<span class="price">￥{{hot.data.price}}</span>
-					<span class="price">♡{{hot.data.favorites_count}}</span>
+					<span class="hotprice">￥{{hot.data.price}}</span>
+					<span class="hotprice">♡{{hot.data.favorites_count}}</span>
 				</div>
 			</li>
 		</ul>
@@ -53,20 +53,37 @@ ul#hot_list{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 1.5rem;
   .hot_list_li{
-  	width:49%;
-  	height:7rem;
-  	margin-top:1rem;
-  	border:1px solid red;
+  	width:48%;
+  	height:8rem;
+  	margin-top:0.35rem;
+  	border:1px solid #ccc;
   	.listimg{
   		width: 100%;
-  		height:80%;
   		img{
   			width: 100%;
   		}
   	}
   	.hot_name{
   		font-size: 0.4rem;
+  		margin-top: 0.3rem;
+  		height:1rem;
+  		overflow: hidden;
+  	}
+  	.hot_like{
+  		width: 90%;
+  		margin: 0.5rem 5%;
+  		display: flex;
+  		justify-content: space-between;
+  		.hotprice{
+  			font-size: 0.4rem;
+  			line-height: 0.8rem;
+  			margin-bottom: 0.1rem;
+  		}
+  		.hotprice:nth-child(1){
+  			color:red;
+  		}
   	}
   }
 }

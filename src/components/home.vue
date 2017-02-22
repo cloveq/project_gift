@@ -10,20 +10,18 @@
 	</div>
 	<!--精选nav-->
 	<div class="home_nav">
-		<ul class="nav">
-			<li><a href="">精选</a></li>
-			<li><a href="">海淘</a></li>
-			<li><a href="">送女票</a></li>
-			<li><a href="">创意生活</a></li>
-			<li><a href="">送基友</a></li>
-			<li><a href="">送父母</a></li>
+		<ul class="nav" v-if="seen">
+			<li v-for="(name,index) in lists" v-bind:class="{'nav_click':n==index}" v-on:click="n=index"><a>{{name.name}}</a></li>
 		</ul>
-		<span class="triangle">▼</span>
+		<span class="triangle" v-on:click="show">▼</span>
+		<ul class="nav2" v-if="seen==false">
+			<li v-for="(name,index) in lists" v-bind:class="{'nav_click':n==index}" v-on:click="n=index"><a>{{name.name}}</a></li>
+		</ul>
 	</div>
 	<!--轮播1-->
-	<div class="swiper-container">
+	<div class="swiper-container banner">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" v-for="img in banner"><img :src="img.image_url" /></div>
+      <div class="swiper-slide banner2" v-for="img in banner"><img :src="img.image_url" /></div>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
@@ -82,7 +80,17 @@
       return {
         banner: {},
         banner2: {},
-        home: {}
+        home: {},
+        seen: true,
+        n: 0,
+        lists: [
+          {name: '精选'},
+          {name: '海淘'},
+          {name: '送女票'},
+          {name: '创意生活'},
+          {name: '送基友'},
+          {name: '送父母'}
+        ]
       }
     },
     created() {
@@ -104,6 +112,15 @@
           this.home = response.data.items
         }
       })
+    },
+    methods: {
+      show: function () {
+        if (this.seen) {
+          this.seen = false
+        } else {
+          this.seen = true
+        }
+      }
     }
   }
 </script>
@@ -111,6 +128,12 @@
 @import '../common/scss/common.scss';
 	#home{
 		background: #EDEFDF;
+	}
+	.nav_click{
+		border-bottom: 2px solid $redcolor;
+		a{
+			color:$redcolor!important;
+		}
 	}
 	#header{
 	width: $width;
@@ -144,9 +167,29 @@
 			position: fixed;
 			top:$height*1.5;
 			li{
-				padding:0.1rem 0.3rem 0.1rem 0.3rem;
+				padding:4px 3px;
+				font-size: 0.45rem;
 				a{
 					color:#000;
+				}
+			}
+		}
+		.nav2{
+			background: #fff;
+			width: 100vw;
+			display: flex;
+			justify-content: flex-start;
+			margin-top: 1rem;
+			flex-wrap: wrap;
+			li{
+				border:1px solid #ccc;
+				line-height: 0.8rem;
+				width: 25%;
+				text-align: center;
+				box-sizing: border-box;
+				a{
+					color:#000;
+					font-size: 0.4rem;
 				}
 			}
 		}
@@ -160,15 +203,20 @@
 				font-size: 0.5rem;
 			}
 	}
+	.banner{
+		 margin-top: 2.5rem;
+	}
+	.banner2{
+		height:5rem!important;
+	}
 	.swiper-container {
 	  width: 100%;
 	  height: 100%;
-	  margin-top: 2.5rem;
 	  .swiper-slide {
 	  text-align: center;
 	  font-size: 18px;
 	  background: #fff;
-	
+		
 	  /* Center slide text vertically */
 	  display: -webkit-box;
 	  display: -ms-flexbox;
@@ -277,7 +325,7 @@
 			display: flex;
 			justify-content: space-between;
 			height:1rem;
-			border-top: 0.01rem solid #ccc;
+			border-top: 1px solid #ccc;
 			span.like{
 				font-size: 0.35rem;
 		    text-indent: 0.3rem;

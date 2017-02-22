@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		html,body{
+			position:relative;
+			height:100%;
+			}
+			body{
+				background:#eee;
+				font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+				font-size:14px;color:#000;
+				margin:0;padding:0;
+				}
+				.swiper-container{
+					width:100%;
+					height:100%;
+					}
+					.swiper-slide{
+						text-align:center;
+						font-size:18px;
+						background:#fff;
+						display:-webkit-box;
+						display:-ms-flexbox;
+						display:-webkit-flex;
+						display:flex;
+						-webkit-box-pack:center;
+						-ms-flex-pack:center;
+						-webkit-justify-content:center;
+						justify-content:center;
+						-webkit-box-align:center;
+						-ms-flex-align:center;
+						-webkit-align-items:center;
+						align-items:center;
+						}
+						.swiper-pagination-bullet{
+							width:20px;
+							height:20px;
+							border-radius: 100%;
+							text-align:center;
+							line-height:20px;
+							font-size:12px;
+							color:#000;opacity:1;
+							background:rgba(0,0,0,0.2);
+							}
+							.swiper-pagination-bullet-active{
+								color:#fff;background:#007aff;
+								}
+								.swiper-pagination-bullet
+		</style>
+		<link rel="stylesheet" type="text/css" href="swiper.min.css"/>
+		<script src="swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="swiper-container">
+		<div class="swiper-wrapper">
+		<div class="swiper-slide">Slide 1</div>
+		<div class="swiper-slide">Slide 2</div>
+		<div class="swiper-slide">Slide 3</div>
+		<div class="swiper-slide">Slide 4</div>
+		<div class="swiper-slide">Slide 5</div>
+		</div>
+		 
+		<div class="swiper-pagination"></div>
+		</div>
+
+	</body>
+	<script type="text/javascript">
+//	var arr=[123456,123455,67788,998765,433222]
+		var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        paginationBulletRender: function (swiper, index, className) {
+            return '<span class="' + className + '">' + (index+1) + '</span>';
+        }
+    });
+		(function(){
+			console.log(1);
+			setTimeout(function(){console.log(2)},1000);
+			setTimeout(function(){console.log(3)},0);
+			console.log(4)
+		})()
+	</script>
+</html>
